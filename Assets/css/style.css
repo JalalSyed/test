@@ -19,12 +19,11 @@ body {
     font-family: "Times New Roman", sans-serif ;
 }
 .menu {
+    max-height: 360px;
    
 } 
 .menu li{
-    height: 80px;
-    text-decoration: none;
-    width: 100%;
+    height: 80px;   
 }
 
 
@@ -41,7 +40,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;/* changed*/
-    background-color: #fafafa;
+    background-color: #1773be;
+    padding-top: 25px;
     min-height: 360px;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
