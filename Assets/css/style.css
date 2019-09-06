@@ -1,0 +1,50 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+/**************************************************Header style **/
+.heading {
+    margin: 0;
+    background-color: #3204a0;
+    max-height: 60px;
+    font-family: "Exo", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color:  #fff;
+    text-align: center;
+}
+
+.heading span{
+    font-family: "Times New Roman", sans-serif ;
+}
+.menu {
+   
+} 
+.menu li{
+    height: 80px;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+#opt1 {
+    background-color: aqua;
+}
+
+#opt2 {
+    background-color: aquamarine;
+}
+/***taken from mini-project:Rosie Odenkirk by Matt Rudge@Code-Institute**/
+.logo {
+    background: url("../images/mortar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;/* changed*/
+    background-color: #fafafa;
+    min-height: 360px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+/********/
