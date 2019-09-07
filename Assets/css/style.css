@@ -6,7 +6,7 @@ body {
 /**************************************************Header style **/
 .heading {
     margin: 0;
-    background-color: #3204a0;
+    background-color: #2a22992c;
     max-height: 60px;
     font-family: "Exo", sans-serif;
     font-size: 36px;
@@ -18,12 +18,21 @@ body {
 .heading span{
     font-family: "Times New Roman", sans-serif ;
 }
+
+.vertnavbar{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 .menu {
     max-height: 360px;
-   
+    margin: 0;
+    padding: 0;
 } 
 .menu li{
-    height: 80px;   
+    height: 80px;  
+    text-align: center;
+    vertical-align: -65%;  
 }
 
 
@@ -34,15 +43,21 @@ body {
 #opt2 {
     background-color: aquamarine;
 }
+#opt3 {
+    background-color: #5aac0d;
+}
+#opt4 {
+    background-color: coral;
+}
 /***taken from mini-project:Rosie Odenkirk by Matt Rudge@Code-Institute**/
 .logo {
     background: url("../images/mortar.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;/* changed*/
-    background-color: #1773be;
+    background-color: #206faff6;
     padding-top: 25px;
-    min-height: 360px;
+    max-height: 360px;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
