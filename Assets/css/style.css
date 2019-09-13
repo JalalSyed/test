@@ -31,8 +31,11 @@ body {
 } 
 .menu li{
     height: 80px;  
-    text-align: center;
-    vertical-align: -65%;  
+    text-align: center;    
+}
+
+.menu li a {
+    vertical-align: 120px; 
 }
 
 
@@ -63,3 +66,8 @@ body {
     -webkit-transition: all 0.5s ease-in-out;
 }
 /********/
+
+.floatingheader {
+    position: fixed;
+    float: none;
+}
